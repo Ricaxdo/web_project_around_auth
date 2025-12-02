@@ -1,0 +1,105 @@
+.avatarPopup__title {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 34px auto 38px 36px;
+}
+
+.avatarPopup__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 36px 36px;
+  box-sizing: border-box;
+}
+
+.avatarPopup__submit-button {
+  max-width: 358px;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0;
+}
+
+.avatarPopup__close-button {
+  background-color: transparent;
+  border: none;
+  top: -45px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatarPopup__close-button-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.avatarPopup__close-button-icon:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.avatarPopup__input {
+  max-width: 358px;
+  width: 100%;
+  height: 27px;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+  font-size: 0.875rem;
+  padding: 20px 5px 13px;
+  box-sizing: border-box;
+}
+
+.avatarPopup__input::placeholder {
+  color: #c4c4c4;
+}
+
+.avatarPopup__input:focus {
+  outline: none;
+}
+
+.avatarPopup__submit-button_disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+  color: #cccccc;
+}
+
+.avatarPopup__input-type-error {
+  border-color: red;
+}
+
+.avatarPopup__input-type-valid {
+  border-color: green;
+}
+
+.avatarPopup__input-error {
+  margin: 6px 0 0;
+  font-size: 0.75rem;
+  color: red;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  display: none;
+}
+.avatarPopup__input-error_active {
+  display: block;
+}
+
+.avatarPopup__submit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

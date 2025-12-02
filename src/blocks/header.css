@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 41px;
+  width: 100%;
+  margin: 45px 0 40px 0;
+}
+
+.header__logo {
+  max-width: 173px;
+}
+
+.header__divider {
+  width: 100%;
+  opacity: 0.7;
+  border: 1px solid #545454;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+    width: 100%;
+    gap: 32px;
+    margin: 28px 0 42px 0;
+  }
+
+  .header__logo {
+    max-width: 126px;
+    height: 24px;
+    margin: 0 auto 0 27px;
+  }
+}

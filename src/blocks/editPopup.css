@@ -1,0 +1,145 @@
+.editPopup__title {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 34px auto 54px 36px;
+}
+
+.editPopup__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 36px 36px;
+  box-sizing: border-box;
+}
+
+.editPopup__input {
+  max-width: 358px;
+  width: 100%;
+  height: 27px;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+  font-size: 0.875rem;
+  padding: 0 0 13px;
+  box-sizing: border-box;
+}
+
+.editPopup__input::placeholder {
+  color: #c4c4c4;
+}
+
+.editPopup__input:focus {
+  outline: none;
+}
+
+.editPopup__input-type-error {
+  border-color: red;
+}
+
+.editPopup__input-type-valid {
+  border-color: green;
+}
+
+.editPopup__input-error {
+  margin: 6px 0 0;
+  font-size: 0.75rem;
+  color: red;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  display: none;
+}
+.editPopup__input-error_active {
+  display: block;
+}
+
+.editPopup__input-about {
+  margin: 24px 0 0;
+}
+
+.editPopup__submit-button {
+  max-width: 358px;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 46px 0 0;
+}
+
+.editPopup__submit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.editPopup__submit-button_disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+  color: #cccccc;
+}
+
+.editPopup__close-button {
+  background-color: transparent;
+  border: none;
+  top: -45px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editPopup__close-button-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.editPopup__close-button-icon:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .editPopup__content {
+    width: 282px;
+  }
+  .editPopup__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .editPopup__form {
+    margin: 0 auto 25px;
+  }
+  .editPopup__title {
+    font-size: 1.125rem;
+    margin: 25px auto 76px 22px;
+  }
+  .editPopup__input {
+    max-width: 238px;
+    padding: 0 0 9px;
+  }
+  .editPopup__close-button {
+    top: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .editPopup__close-button-icon {
+    width: 26px;
+    height: 26px;
+  }
+  .editPopup__submit-button {
+    max-width: 238px;
+    height: 46px;
+  }
+}

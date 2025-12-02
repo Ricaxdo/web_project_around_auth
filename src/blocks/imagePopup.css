@@ -1,0 +1,42 @@
+.imagePopup__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagePopup__image {
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.imagePopup__close-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  cursor: pointer;
+}
+
+.imagePopup__close-button-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.imagePopup__close-button-icon:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+  .imagePopup__close-button {
+    top: -30px;
+    right: -30px;
+  }
+  .imagePopup__close-button-icon {
+    width: 26px;
+    height: 26px;
+  }
+}
