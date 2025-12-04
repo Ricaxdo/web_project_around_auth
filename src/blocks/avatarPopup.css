@@ -103,3 +103,39 @@
   opacity: 0.8;
   cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+  .avatarPopup__content {
+    width: 282px;
+  }
+  .avatarPopup__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .avatarPopup__form {
+    margin: 0 auto 0;
+  }
+  .avatarPopup__title {
+    font-size: 1.125rem;
+    margin: 25px auto 30px 22px;
+  }
+  .avatarPopup__input {
+    width: 238px;
+    padding: 0;
+  }
+  .avatarPopup__close-button {
+    top: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .avatarPopup__close-button-icon {
+    width: 26px;
+    height: 26px;
+  }
+  .avatarPopup__submit-button {
+    width: 238px;
+    height: 46px;
+  }
+}

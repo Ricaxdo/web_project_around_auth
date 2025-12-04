@@ -120,14 +120,16 @@
     flex-direction: column-reverse;
   }
   .addPopup__form {
-    margin: 0 auto 25px;
+    margin: 0 auto 0;
   }
   .addPopup__title {
     font-size: 1.125rem;
-    margin: 25px auto 76px 22px;
+    margin: 25px auto 30px 22px;
   }
   .addPopup__input {
-    max-width: 238px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 238px;
     padding: 0 0 9px;
   }
   .addPopup__close-button {
@@ -142,6 +144,7 @@
     height: 26px;
   }
   .addPopup__submit-button {
+    margin-top: 30px;
     max-width: 238px;
     height: 46px;
   }

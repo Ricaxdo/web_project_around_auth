@@ -13,3 +13,5 @@
 @import url('./blocks/confirmationPopup.css');
 @import url('./blocks/avatarPopup.css');
 @import url('./blocks/pageLoader.css');
+@import url('./blocks/auth.css');
+@import url('./blocks/infoPopup.css');

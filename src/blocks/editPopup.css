@@ -117,14 +117,14 @@
     flex-direction: column-reverse;
   }
   .editPopup__form {
-    margin: 0 auto 25px;
+    margin: 0 auto;
   }
   .editPopup__title {
     font-size: 1.125rem;
-    margin: 25px auto 76px 22px;
+    margin: 25px auto 30px 22px;
   }
   .editPopup__input {
-    max-width: 238px;
+    width: 238px;
     padding: 0 0 9px;
   }
   .editPopup__close-button {
@@ -141,5 +141,6 @@
   .editPopup__submit-button {
     max-width: 238px;
     height: 46px;
+    margin-top: 30px;
   }
 }
