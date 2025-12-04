@@ -79,7 +79,6 @@
   text-decoration: underline;
 }
 
-/* Oculto en desktop */
 .header__menu-button {
   display: none;
   background: transparent;
@@ -93,7 +92,6 @@
   height: 24px;
 }
 
-/* Barra debajo del header */
 .headerMenuBar {
   display: none;
   width: 100%;
@@ -124,7 +122,6 @@
   text-decoration: underline;
 }
 
-/* ======= NUEVO BREAKPOINT 630px ======= */
 @media screen and (max-width: 630px) {
   .header {
     gap: 32px;

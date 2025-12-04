@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../images/aroundEEUU_logo.svg';
-import menuIcon from '../../images/menu.png'; // icono de 3 líneas
+import menuIcon from '../../images/menu.png';
 
 export default function Header({ isLoggedIn, userEmail, onSignOut }) {
   const location = useLocation();
@@ -49,7 +49,6 @@ export default function Header({ isLoggedIn, userEmail, onSignOut }) {
             {/* Usuario logueado */}
             {isLoggedIn && (
               <>
-                {/* Desktop / tablet: email + logout inline */}
                 <div className="header__user-info">
                   <p className="header__email">{userEmail}</p>
                   <button className="header__logout" onClick={onSignOut}>
@@ -57,7 +56,6 @@ export default function Header({ isLoggedIn, userEmail, onSignOut }) {
                   </button>
                 </div>
 
-                {/* Mobile: botón de menú que despliega barra debajo del header */}
                 <button
                   className="header__menu-button"
                   type="button"
