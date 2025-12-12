@@ -8,7 +8,7 @@ Este proyecto consume dos APIs de TripleTen:
 
 ---
 
-## 🧾 Descripción
+## Descripción
 
 La aplicación permite a los usuarios:
 - Registrarse e iniciar sesión usando JWT.
@@ -20,7 +20,7 @@ La ruta principal `/` está protegida: si un usuario no autorizado intenta entra
 
 ---
 
-## 🚀 Flujo paso a paso (cómo funciona)
+## Flujo paso a paso (cómo funciona)
 
 1. **Registro**
    - El usuario se registra en `/signup`.
@@ -50,7 +50,7 @@ La ruta principal `/` está protegida: si un usuario no autorizado intenta entra
 
 ---
 
-## 🛠 Tecnologías usadas
+## Tecnologías usadas
 
 **Frontend**
 - React
